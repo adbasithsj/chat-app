@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: firebrick;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+
+}
+.box{
+    text-align: left;
+    overflow:auto;
+    height: 100px;
+    width: 100%;
+    border: 1px solid;
+    margin: 5px;
+    padding: 5px;
+}
+#mydiv{
+    height: 13rem;
+}
+input{
+    height: 50px;
+    width: 50%;
+}
+button{
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+li{
+   list-style-type: none; 
+}
